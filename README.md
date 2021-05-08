@@ -1,6 +1,6 @@
 # shellbot
 
-Simple Telegram bot written on bash that execute commands in shell.
+Simple Telegram bot on bash that execute commands in shell remotely.
 You can send commands to your server without SSH access, or open SSH port,
 or passthrough ssh-tunnel, or something like this. Support many master ID's, so you can provide access
 for others.
@@ -9,7 +9,7 @@ Requirements: bash, curl, jq
 
 How to use:
 1. Clone git repository
-2. Insert bot token and your Telegram ID to config.sh
+2. Rename config example to config.sh and insert bot token and your Telegram ID into config
 3. Then:
    
    a) Run "shellbotd.sh" in tmux/screen
